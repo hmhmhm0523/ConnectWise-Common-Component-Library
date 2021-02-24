@@ -22,7 +22,6 @@ export const Accordion = ({ collapsed, statusColor, title, children, ...props })
       <div className='accordion-header' style={{borderLeftColor: statusColor}}>
         <input type='checkbox'></input>
         <h3>{title}</h3>
-        <h3>{title}</h3>
         <span className='spacer'></span>
         <a onClick={handleClick}></a>
       </div>
